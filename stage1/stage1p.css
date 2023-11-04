@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(/assets/prison\ door.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+}
+#message{
+    position: relative;
+    /* Rectangle 4 */
+left: 30vh;
+top: -10vh;
+    width: 340px;
+    height: 138px;
+    background: rgba(217, 217, 217, 0.86);
+    filter: blur(8px);
+    border-radius: 45px;
+
+}
+p{
+    position: relative;
+    width: 700px;
+    font-family: 'Aclonica', sans-serif;
+    left: 32vh;
+    top: -22vh;
+    font-size: 15px;
+
+}
+button:hover{
+    transform: scale3d(1.1,1.1,1.1);
+    background-color: red;
+    box-shadow: 2px 6px 5px 0px black;
+}
+button{
+    position: absolute;
+    width: 182px;
+    height: 59px;
+    background: rgba(255, 0, 0, 0);
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-size: 30px;
+    font-family: 'Anton',sans-serif;
+    left: 135vh;
+    top: 80vh;
+
+}
+#franklin{
+    height: 300px;
+    position: relative;
+    left: 10vh;
+    top: 35vh;
+}
+#black{
+    background-color: rgb(32, 31, 31);
+    width: 285px;
+    height: 382px;
+    position: absolute;
+    left: 78vh;
+    top: 27vh;
+
+    border-radius: 20px;
+}

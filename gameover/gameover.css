@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Aladin&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(/assets/final\ page.jpg);
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
+}
+button{
+    width: 182px;
+    height: 59px;
+    margin-top: 250px;
+    background: rgba(255, 0, 0, 0);
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-size: 25px;
+    font-family: 'Anton',sans-serif;
+    -webkit-text-stroke:0.5px rgb(162, 160, 160) ;
+}
+button:hover{
+    transform: scale3d(1.1,1.1,1.1);
+    background-color: red;
+    box-shadow: 2px 6px 5px 0px black;
+}
+.buttons{
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    position: absolute;
+    top: 350px;
+    left: 370px;
+}
+#container{
+    position: absolute;
+    /* Rectangle 4 */
+
+    width: 920px;
+    height: 148px;
+    left: 310px;
+    top: 150px;
+    background: rgba(217, 217, 217, 0.86);
+    filter: blur(8px);
+    border-radius: 45px;
+}
+p{
+    font-size: 50px;
+    font-family: 'Aladin',sans-serif;
+    position: relative;
+    left: 360px;
+    width: 800px;
+    text-align: center;
+    top: 170px;
+}
+#king{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    margin-top: 430px;
+}
