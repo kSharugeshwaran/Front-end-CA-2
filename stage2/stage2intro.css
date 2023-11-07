@@ -1,21 +1,29 @@
+/* Import Google Fonts for styling */
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
 
+/* Reset default margin and padding for all elements */
 *{
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
+
+/* Styling for the background image */
 body{
     background-image: url(/assets/library.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100vh;
 }
+
+/* Styling for the Franklin character */
 #frank{
     height: 300px;
     position: absolute;
     top: 30vh;
     left: 50vh;
 }
+
+/* Styling for the message container */
 #container{
     width: 340px;
     height: 138px;
@@ -26,14 +34,18 @@ body{
     left: 65vh;
     top: 15vh;
 }
+
+/* Styling for the message paragraph */
 p{
-    font-family: 'Aclonica',sans-serif;
+    font-family: 'Aclonica', sans-serif;
     font-size: 16px;
     position: relative;
     left: 68vh;
     top: 19vh;
     width: 300px;
 }
+
+/* Styling for the "NEXT" button */
 button{
     position: absolute;
     width: 182px;
@@ -43,12 +55,19 @@ button{
     border: none;
     color: white;
     font-size: 30px;
-    font-family: 'Anton',sans-serif;
+    font-family: 'Anton', sans-serif;
     left: 135vh;
     top: 80vh;
 }
+
+/* Hover effect for the button */
 button:hover{
-    transform: scale3d(1.1,1.1,1.1);
+    transform: scale3d(1.1, 1.1, 1.1);
     background-color: red;
     box-shadow: 2px 6px 5px 0px black;
+}
+
+/* Initial hidden state for certain elements */
+p, img, #container, button{
+    visibility: hidden;
 }

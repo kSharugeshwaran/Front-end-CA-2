@@ -10,55 +10,60 @@ body{
     background-size: 100% 100vh;
 
 }
-#options{
-    display: flex;
-    flex-direction: row;
-    
-}
-#text{
-        width: 150px;
-        height: 58px;
-        background: #D9D9D9;
-        /* filter: blur(6.5px); */
-        filter: blur(6.5px);
-        border-radius: 12px;
-        border: none;
-}
-#options{
-  position: absolute;
-  margin-left: 370px;
-  bottom: 100px;
-  
-}
-.op{
-    position: relative;
-    right: 100px;
-    top: 15px;
-    font-family: 'Anton',sans-serif;
-    color: blue;
-    font-size: 18px;
-}
+
 #challenge{
     display: flex;
     flex-direction: column;
     margin-left: 425px;
     margin-top  : 200px;
 }
-#riddle{
+#riddles{
     font-family: 'Aclonica',sans-serif;
     position: relative;
-    top: -250px;
-    margin-left: 20px;
+    top: -170px;
+    margin-left: 50px;
     font-size: 18px;
-
+    width: 550px;
+    line-height: 30px;
 }
 #container{
-    background: rgba(217, 217, 217, 0.86);
+    background: rgba(217, 217, 217, 0.574);
     filter: blur(8px);
     border-radius: 45px;
     width: 650px;
-    height: 300px;
+    height: 200px;
 }
-#text:hover{
+.text:hover{
     transform: scale3d(1.1,1.1,1.1);
 }
+button:hover{
+    transform: scale3d(1.1,1.1,1.1);
+    background-color: red;
+    box-shadow: 2px 6px 5px 0px black;
+}
+button{
+    position: absolute;
+    width: 182px;
+    height: 59px;
+    margin-left: 1120px;
+    margin-top: 150px;
+    top: 450px;
+    background: rgba(255, 0, 0, 0);
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Anton',sans-serif;
+}
+#answer{
+    position: absolute;
+    margin-left: 670px;
+    bottom: 140px;
+    width: 200px;
+    height: 40px;
+    background-color: rgba(245, 245, 245, 0.401);
+    text-align: center;
+    border: none;
+    border-radius: 20px;  
+    outline: none;
+  }

@@ -1,21 +1,30 @@
+/* Import Google Fonts for 'Anton' and 'Aclonica' */
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
 
-*{
+/* Reset default margin and padding for all elements */
+* {
     margin: 0px;
     padding: 0px;
 }
-body{
+
+/* Set background image for the body */
+body {
     background-image: url(/assets/cave02-1024x683.png);
     background-repeat: no-repeat;
     background-size: 100% 100vh;
 }
-img{
+
+/* Styling for an image element */
+img {
     position: absolute;
     left: 100px;
     top: 140px;
+    height: 600px;
 }
-#container{
+
+/* Styling for a container element */
+#container {
     position: absolute;
     width: 700px;
     height: 178px;
@@ -25,35 +34,36 @@ img{
     filter: blur(8px);
     border-radius: 45px;
 }
-p{
+
+/* Styling for a paragraph element */
+p {
     position: relative;
-    font-family: 'Aclonica',sans-serif;
+    font-family: 'Aclonica', sans-serif;
     font-size: 16px;
     left: 720px;
     top: 180px;
     width: 600px;
 }
-button:hover{
-        transform: scale3d(1.1,1.1,1.1);
-        background-color: red;
-        box-shadow: 2px 6px 5px 0px black;
-}
-button{
-        position: absolute;
-        width: 182px;
-        height: 59px;
-        margin-left: 1120px;
-        margin-top: 150px;
-        top: 450px;
-        background: rgba(255, 0, 0, 0);
-        border-radius: 20px;
-        border: none;
-        color: white;
-        font-size: 25px;
-        font-family: 'Anton',sans-serif;
-}
-img{
-    height: 550px;
+
+/* Styling for button hover state */
+button:hover {
+    transform: scale3d(1.1, 1.1, 1.1);
+    background-color: red;
+    box-shadow: 2px 6px 5px 0px black;
 }
 
-
+/* Styling for a button element */
+button {
+    position: absolute;
+    width: 182px;
+    height: 59px;
+    margin-left: 1120px;
+    margin-top: 150px;
+    top: 450px;
+    background: rgba(255, 0, 0, 0);
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-size: 25px;
+    font-family: 'Anton', sans-serif;
+}

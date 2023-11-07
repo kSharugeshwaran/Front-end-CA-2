@@ -1,0 +1,54 @@
+/* Import Google Fonts for 'Bangers' and 'Anton' */
+@import url('https://fonts.googleapis.com/css2?family=Bangers&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Styling for the body element */
+.body {
+    background-image: url(/assets/tiltle\ page.png); /* Set the background image */
+    background-size: 100% 100vh; /* Cover the entire viewport */
+    background-repeat: no-repeat; /* Don't repeat the background */
+    color: white; /* Text color */
+    display: flex; /* Use flex layout */
+    flex-direction: column; /* Stack children vertically */
+    align-items: center; /* Center-align children */
+    cursor: url(./../assets/cursor-removebg-preview.png); /* Set a custom cursor image */
+}
+
+/* Styling for buttons */
+button {
+    background-color: rgba(255, 255, 255, 0); /* Transparent background */
+    width: 180px; /* Button width */
+    height: 70px; /* Button height */
+    border-radius: 20px; /* Rounded corners */
+    color: white; /* Text color */
+    font-size: 20px; /* Text size */
+    border: none; /* No border */
+    position: relative; /* Adjust positioning */
+    top: 450px; /* Offset from the top */
+    font-family: 'Anton', sans-serif; /* Apply 'Anton' font */
+}
+
+/* Styling for the heading */
+h1 {
+    font-size: 60px; /* Font size for the heading */
+    position: relative; /* Adjust positioning */
+    top: 100px; /* Offset from the top */
+    font-family: "Bangers"; /* Apply 'Bangers' font */
+    font-size: 100px; /* Font size */
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* Styling for the play button on hover */
+#play:hover {
+    transform: scale3d(1.1, 1.1, 1.1); /* Scale up on hover */
+    background-color: red; /* Change background color */
+    box-shadow: 2px 6px 5px 0px black; /* Add a shadow effect */
+}

@@ -1,19 +1,25 @@
+/* CSS for styling the introduction stage of the game */
+
+/* Importing fonts from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
 
-*{
+/* Resetting default margin and padding for all elements */
+* {
     margin: 0px;
     padding: 0px;
 }
-body{
+
+/* Styling the background of the body */
+body {
     background-image: url(/assets/treasure\ chamber.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100vh;
 }
-#message{
-    position: absolute;
-    /* Rectangle 4 */
 
+/* Styling the message container */
+#message {
+    position: absolute;
     width: 700px;
     height: 148px;
     left: 490px;
@@ -21,21 +27,26 @@ body{
     background: rgba(217, 217, 217, 0.86);
     filter: blur(8px);
     border-radius: 45px;
-
 }
-p{
+
+/* Styling the text content within the message container */
+p {
     position: relative;
     width: 800px;
     font-family: 'Aclonica', sans-serif;
     left: 535px;
     top: 300px;
 }
-button:hover{
-    transform: scale3d(1.1,1.1,1.1);
+
+/* Styling the next button on hover */
+button:hover {
+    transform: scale3d(1.1, 1.1, 1.1);
     background-color: red;
     box-shadow: 2px 6px 5px 0px black;
 }
-button{
+
+/* Styling the next button */
+button {
     position: absolute;
     width: 182px;
     height: 59px;
@@ -47,11 +58,18 @@ button{
     border: none;
     color: white;
     font-size: 30px;
-    font-family: 'Anton',sans-serif;
+    font-family: 'Anton', sans-serif;
 }
-#franklin{
+
+/* Styling Franklin's image */
+#franklin {
     height: 300px;
     position: absolute;
     margin-left: 365px;
     margin-top: 390px;
+}
+
+/* Hiding elements initially */
+#message, p, button, #franklin {
+    visibility: hidden;
 }

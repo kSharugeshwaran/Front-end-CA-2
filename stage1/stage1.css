@@ -1,65 +1,99 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
-*{
+
+/* Resetting default margins and paddings */
+* {
     margin: 0px;
     padding: 0px;
 }
-body{
+
+/* Styling for the background */
+body {
     background-image: url(/assets/prison\ door.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100vh;
+}
 
-}
-#options{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-}
-#text{
-        width: 150px;
-        height: 58px;
-        background: #D9D9D9;
-        /* filter: blur(6.5px); */
-        filter: blur(6.5px);
-        border-radius: 12px;
-        border: none;
-}
-#options{
-  position: absolute;
-  margin-left: 370px;
-  bottom: 100px;
-  
-}
-.op{
-    position: relative;
-    right: 100px;
-    top: 15px;
-    font-family: 'Anton',sans-serif;
-    color: blue;
-    font-size: 18px;
-}
-#challenge{
+/* Styling for the challenge container */
+#challenge {
     display: flex;
     flex-direction: column;
     margin-left: 625px;
+    height: 700px;
 }
-#riddle{
-    font-family: 'Aclonica',sans-serif;
-    position: relative;
-    top: -250px;
-    margin-left: -100px;
-    font-size: 18px;
 
+/* Styling for the riddles and the container */
+#riddles {
+    font-family: 'Aclonica', sans-serif;
+    position: relative;
+    top: -230px;
+    margin-left: -120px;
+    font-size: 18px;
+    width: 500px;
+    height: 500px;
+    line-height: 40px;
 }
-#container{
+
+#container {
     background: rgba(217, 217, 217, 0.86);
     filter: blur(8px);
     border-radius: 45px;
     width: 550px;
-    height: 300px;
+    height: 500px;
     margin-top: 200px;
     margin-left: -150px;
 }
-#text:hover{
-    transform: scale3d(1.1,1.1,1.1);
+
+/* Styling for the text input */
+.text {
+    width: 150px;
+    height: 58px;
+    background: #D9D9D9;
+    filter: blur(6.5px);
+    border-radius: 12px;
+    border: none;
 }
+
+/* Styling for the answer input */
+#answer {
+    position: absolute;
+    margin-left: 670px;
+    bottom: 140px;
+    width: 200px;
+    height: 40px;
+    background-color: rgba(245, 245, 245, 0.401);
+    text-align: center;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+}
+
+/* Styling for the "SUBMIT" button */
+button {
+    position: absolute;
+    width: 182px;
+    height: 59px;
+    margin-left: 1120px;
+    margin-top: 150px;
+    top: 450px;
+    background: rgba(255, 0, 0, 0);
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-family: 'Anton', sans-serif;
+}
+
+/* Styling for hover effects */
+.text:hover {
+    transform: scale3d(1.1, 1.1, 1.1);
+}
+
+button:hover {
+    transform: scale3d(1.1, 1.1, 1.1);
+    background-color: red;
+    box-shadow: 2px 6px 5px 0px black;
+}
+
+
+

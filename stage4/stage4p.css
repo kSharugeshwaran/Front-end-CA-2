@@ -1,21 +1,30 @@
+/* Import Google Fonts for 'Anton' and 'Aclonica' */
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
+
+/* Reset default margin and padding for all elements */
 *{
     margin: 0px;
     padding: 0px;
 }
+
+/* Set background image for the body */
 body{
     background-image: url(/assets/cave02-1024x683.png);
     background-size: 100% 100vh;
     background-repeat: no-repeat;
 }
+
+/* Styling for an image element */
 #franklin{
     height: 300px;
     position: absolute;
     margin-left: 900px;
     margin-top: 400px;
-    transform: scaleX(-1);
+    transform: scaleX(-1); /* Flip the image horizontally */
 }
+
+/* Styling for a button element */
 button{
     position: absolute;
     width: 182px;
@@ -29,27 +38,32 @@ button{
     color: white;
     font-size: 30px;
     font-family: 'Anton',sans-serif;
-    -webkit-text-stroke:0.5px rgb(162, 160, 160) ;
+    -webkit-text-stroke: 0.5px rgb(162, 160, 160); /* Add a text stroke for styling */
 }
+
+/* Styling for button hover state */
 button:hover{
     transform: scale3d(1.1,1.1,1.1);
     background-color: red;
     box-shadow: 2px 6px 5px 0px black;
 }
+
+/* Styling for a paragraph element */
 p{
     position: absolute;
     width: 660px;
     font-family: 'Aclonica', sans-serif;
-   margin-top: 150px;
+    margin-top: 150px;
     margin-left: 20px;
     font-size: 16px;
     left: 260px;
     top: 140px;
 }
+
+/* Styling for a message container element */
 #message{
     position: absolute;
     /* Rectangle 4 */
-
     width: 720px;
     height: 148px;
     left: 240px;
@@ -57,5 +71,4 @@ p{
     background: rgba(217, 217, 217, 0.86);
     filter: blur(8px);
     border-radius: 45px;
-
 }

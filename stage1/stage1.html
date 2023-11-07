@@ -1,32 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Metadata -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- Link to the CSS stylesheet -->
     <link rel="stylesheet" href="stage1.css">
 </head>
 <body>
+    <!-- Challenge container -->
     <div id="challenge">
         <div id="container"></div>
-        <p id="riddle">"I'm a shadow that never departs, In <br> the realm of wrongdoers and hearts. <br>
-            My presence is heavy, my grip is <br> strong, <br>
-           For those who've done something gravely wrong. <br>
-           A path to me leads through a gate, <br> Where consequences lie in wait. <br> 
-           You may find me lurking behind the <br> scene, 
-           What am I, where life may turn <br>mean?"
-        </p>
+        <p id="riddles"></p>
     </div>
-    <div id="options">
-     <div id="text"></div>
-     <p class="op">Offence</p>
-     <div id="text"></div>
-     <p class="op">Crime</p>
-     <div id="text"></div>
-     <p class="op">Penalty</p>
-     <div id="text"></div>
-     <p class="op">Jury</p>
-    </div>
+    <!-- Answer form -->
+    <form action="" id="answerForm">
+        <input type="text" id="answer" placeholder="ANSWER HERE" autocomplete="off">
+        <button type="submit" id="next">SUBMIT</button>
+    </form>
+    <!-- Background music player -->
+    <audio src="/music/2022-12-01_-_Looking_For_Clues_-_www.FesliyanStudios.com.mp3" id="bgm" controls loop></audio>
 </body>
+<!-- Link to the JavaScript file -->
 <script src="stage1.js"></script>
 </html>

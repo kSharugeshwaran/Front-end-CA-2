@@ -1,9 +1,13 @@
+/* Import Google Fonts for 'Anton' */
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
+/* Reset default margin and padding for all elements */
 *{
     margin: 0px;
     padding: 0px;
 }
+
+/* Set background image for the body and style flex layout */
 body{
     background-image: url(/assets/cave02-1024x683.png);
     background-repeat: no-repeat;
@@ -14,29 +18,32 @@ body{
     justify-content: space-between;
 }
 
+/* Styling for button hover state */
 button:hover{
-        transform: scale3d(1.1,1.1,1.1);
-        background-color: red;
-        box-shadow: 2px 6px 5px 0px black;
+    transform: scale3d(1.1,1.1,1.1);
+    background-color: red;
+    box-shadow: 2px 6px 5px 0px black;
 }
+
+/* Styling for button element */
 button{
-        position: absolute;
-        width: 182px;
-        height: 59px;
-        top: 450px;
-        background: rgba(255, 0, 0, 0);
-        border-radius: 20px;
-        border: none;
-        color: white;
-        -webkit-text-stroke: 0.5px rgb(166, 166, 166);
-        font-size: 30px;
-        font-family: 'Anton',sans-serif;
+    position: absolute;
+    width: 182px;
+    height: 59px;
+    top: 450px;
+    background: rgba(255, 0, 0, 0);
+    border-radius: 20px;
+    border: none;
+    color: white;
+    -webkit-text-stroke: 0.5px rgb(166, 166, 166); /* Add a text stroke for styling */
+    font-size: 30px;
+    font-family: 'Anton',sans-serif;
 }
+
+/* Styling for a paragraph element */
 p{
     font-family: "Anton",sans-serif;
     color: white;
     font-size: 50px;
     margin-top: 100px;
 }
-
-

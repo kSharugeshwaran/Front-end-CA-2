@@ -1,10 +1,16 @@
+/* CSS for styling the screen when the player is defeated */
+
+/* Importing the "Anton" font from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 
-*{
+/* Resetting default margin and padding for all elements */
+* {
     margin: 0px;
     padding: 0px;
 }
-body{
+
+/* Styling the body background image */
+body {
     background-image: url(/assets/snakeroom.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100vh;
@@ -14,28 +20,31 @@ body{
     justify-content: space-between;
 }
 
-button:hover{
-        transform: scale3d(1.1,1.1,1.1);
-        background-color: red;
-        box-shadow: 2px 6px 5px 0px black;
+/* Styling the "TRY AGAIN" button on hover */
+button:hover {
+    transform: scale3d(1.1, 1.1, 1.1);
+    background-color: red;
+    box-shadow: 2px 6px 5px 0px black;
 }
-button{
-        position: absolute;
-        width: 182px;
-        height: 59px;
-        top: 450px;
-        background: rgba(255, 0, 0, 0);
-        border-radius: 20px;
-        border: none;
-        color: white;
-        font-size: 30px;
-        font-family: 'Anton',sans-serif;
+
+/* Styling the "TRY AGAIN" button */
+button {
+    position: absolute;
+    width: 182px;
+    height: 59px;
+    top: 450px;
+    background: rgba(255, 0, 0, 0);
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-size: 30px;
+    font-family: 'Anton', sans-serif;
 }
-p{
-    font-family: "Anton",sans-serif;
+
+/* Styling the text message */
+p {
+    font-family: "Anton", sans-serif;
     color: white;
     font-size: 50px;
     margin-top: 100px;
 }
-
-

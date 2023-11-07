@@ -1,21 +1,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
-*{
+
+/* Resetting default margins and paddings */
+* {
     margin: 0px;
     padding: 0px;
 }
-body{
+
+/* Styling for the background */
+body {
     background-image: url(/assets/prison\ door.jpg);
     background-size: 100% 100vh;
     background-repeat: no-repeat;
 }
-#franklin{
+
+/* Styling for the Franklin image */
+#franklin {
     height: 300px;
     position: absolute;
     margin-left: 100px;
     margin-top: 400px;
 }
-button{
+
+/* Styling for the Next button */
+button {
     position: absolute;
     width: 182px;
     height: 59px;
@@ -27,27 +35,32 @@ button{
     border: none;
     color: white;
     font-size: 30px;
-    font-family: 'Anton',sans-serif;
+    font-family: 'Anton', sans-serif;
 }
-button:hover{
-    transform: scale3d(1.1,1.1,1.1);
+
+/* Styling for Next button hover effect */
+button:hover {
+    transform: scale3d(1.1, 1.1, 1.1);
     background-color: red;
     box-shadow: 2px 6px 5px 0px black;
 }
-p{
+
+/* Styling for the introduction text */
+p {
     position: absolute;
     width: 800px;
     font-family: 'Aclonica', sans-serif;
-   margin-top: 170px;
+    margin-top: 170px;
     margin-left: 20px;
     font-size: 20px;
     left: 270px;
     top: 180px;
 }
-#message{
+
+/* Styling for the message container */
+#message {
     position: absolute;
     /* Rectangle 4 */
-
     width: 920px;
     height: 148px;
     left: 240px;
@@ -55,5 +68,9 @@ p{
     background: rgba(217, 217, 217, 0.86);
     filter: blur(8px);
     border-radius: 45px;
+}
 
+/* Initially, hide the elements */
+p, img, #message, button {
+    visibility: hidden;
 }

@@ -1,15 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Aladin&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
-*{
+
+/* Resetting default margins and paddings */
+* {
     margin: 0px;
     padding: 0px;
 }
-body{
+
+/* Styling for the background */
+body {
     background-image: url(/assets/final\ page.jpg);
     background-size: 100% 100vh;
     background-repeat: no-repeat;
 }
-button{
+
+/* Styling for buttons */
+button {
     width: 182px;
     height: 59px;
     margin-top: 250px;
@@ -18,15 +24,19 @@ button{
     border: none;
     color: white;
     font-size: 25px;
-    font-family: 'Anton',sans-serif;
-    -webkit-text-stroke:0.5px rgb(162, 160, 160) ;
+    font-family: 'Anton', sans-serif;
+    -webkit-text-stroke: 0.5px rgb(162, 160, 160);
 }
-button:hover{
-    transform: scale3d(1.1,1.1,1.1);
+
+/* Styling for button hover effect */
+button:hover {
+    transform: scale3d(1.1, 1.1, 1.1);
     background-color: red;
     box-shadow: 2px 6px 5px 0px black;
 }
-.buttons{
+
+/* Styling for button container */
+.buttons {
     width: 800px;
     display: flex;
     flex-direction: row;
@@ -35,10 +45,10 @@ button:hover{
     top: 350px;
     left: 370px;
 }
-#container{
-    position: absolute;
-    /* Rectangle 4 */
 
+/* Styling for a container */
+#container {
+    position: absolute;
     width: 920px;
     height: 148px;
     left: 310px;
@@ -47,18 +57,38 @@ button:hover{
     filter: blur(8px);
     border-radius: 45px;
 }
-p{
+
+/* Styling for the congratulatory message */
+p {
     font-size: 50px;
-    font-family: 'Aladin',sans-serif;
+    font-family: 'Aladin', sans-serif;
     position: relative;
     left: 360px;
     width: 800px;
     text-align: center;
     top: 170px;
 }
-#king{
+
+/* Styling for the credits */
+#king {
     text-align: center;
     font-size: 20px;
     color: white;
     margin-top: 430px;
+    text-decoration: none;
+}
+
+/* Styling for the name span */
+#name:hover {
+    transform: scale3d(1.1);
+    color: red;
+    transition: all 2s ease;
+    font-size: 30px;
+}   
+a{
+    text-decoration: none;
+    color: rgb(255, 208, 0);
+}
+a{
+    
 }

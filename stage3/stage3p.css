@@ -1,21 +1,31 @@
+/* CSS for styling the introduction to the next stage of the game */
+
+/* Importing fonts from Google Fonts */
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Aclonica&display=swap');
 
-*{
+/* Resetting default margin and padding for all elements */
+* {
     margin: 0px;
     padding: 0px;
 }
-body{
+
+/* Styling the background of the body */
+body {
     background-image: url(/assets/snakeroom.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100vh;
 }
-img{
+
+/* Styling the snake image */
+img {
     position: absolute;
     left: 100px;
     top: 200px;
 }
-#container{
+
+/* Styling the message container */
+#container {
     position: absolute;
     width: 600px;
     height: 108px;
@@ -25,33 +35,37 @@ img{
     filter: blur(8px);
     border-radius: 45px;
 }
-p{
+
+/* Styling the text content within the message container */
+p {
     position: relative;
-    font-family: 'Aclonica',sans-serif;
+    font-family: 'Aclonica', sans-serif;
     font-size: 16px;
     left: 550px;
     top: 180px;
     width: 600px;
-    font-size: 18px;
-}
-button:hover{
-        transform: scale3d(1.1,1.1,1.1);
-        background-color: red;
-        box-shadow: 2px 6px 5px 0px black;
-}
-button{
-        position: absolute;
-        width: 182px;
-        height: 59px;
-        margin-left: 1120px;
-        margin-top: 150px;
-        top: 450px;
-        background: rgba(255, 0, 0, 0);
-        border-radius: 20px;
-        border: none;
-        color: white;
-        font-size: 30px;
-        font-family: 'Anton',sans-serif;
+    font-size: 18px; /* Note: font-size is defined twice, consider removing one */
 }
 
+/* Styling the next button on hover */
+button:hover {
+    transform: scale3d(1.1, 1.1, 1.1);
+    background-color: red;
+    box-shadow: 2px 6px 5px 0px black;
+}
 
+/* Styling the next button */
+button {
+    position: absolute;
+    width: 182px;
+    height: 59px;
+    margin-left: 1120px;
+    margin-top: 150px;
+    top: 450px;
+    background: rgba(255, 0, 0, 0);
+    border-radius: 20px;
+    border: none;
+    color: white;
+    font-size: 30px;
+    font-family: 'Anton', sans-serif;
+}
