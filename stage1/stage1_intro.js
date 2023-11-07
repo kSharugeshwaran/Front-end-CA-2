@@ -12,7 +12,7 @@ function nextPage() {
     var click = new Audio("./../music/click-button-140881.mp3");
     click.play();
     setTimeout( () => {
-        window.location.href = "./stage1/stage1.html";
+        window.location.href = "./stage1.html";
     }, 500);
 }
 
