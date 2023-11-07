@@ -19,13 +19,13 @@ function apppear(){
 }
 
 function nextPage(){
-    var click = new Audio("./music/click-button-140881.mp3")
+    var click = new Audio("./../music/click-button-140881.mp3")
     click.play()
     setTimeout( () =>{
-        window.location.href = "/stage2/stage2intro.html";
+        window.location.href = "./../stage2/stage2intro.html";
     },510)}
 
-var door = new Audio("./music/mixkit-old-medieval-door-lock-187.wav")
+var door = new Audio("./../music/mixkit-old-medieval-door-lock-187.wav")
 
 door.play()
 

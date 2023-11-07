@@ -19,7 +19,7 @@ document.getElementById("answerForm").addEventListener("submit", function(event)
 });
 
 // Play background music
-var music = new Audio("./music/2022-10-28_-_Predator_And_Prey_-_www.FesliyanStudios.com.mp3");
+var music = new Audio("./../music/2022-10-28_-_Predator_And_Prey_-_www.FesliyanStudios.com.mp3");
 music.play();
 music.loop = true;
 

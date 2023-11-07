@@ -70,7 +70,7 @@ tiles.forEach((tile, index) => {
     });
 });
 
-var flip = new Audio("./music/page-flip-01a.mp3")
+var flip = new Audio("./../music/page-flip-01a.mp3")
 function  pal(){
     flip.play()
     flip.loop = false

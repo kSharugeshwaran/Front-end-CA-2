@@ -15,7 +15,7 @@ body {
 }
 
 /* Styling for the Franklin image */
-img {
+#franklin{
     height: 300px;
     position: relative;
     top: 400px;

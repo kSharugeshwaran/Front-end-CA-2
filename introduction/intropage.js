@@ -9,10 +9,10 @@ start.addEventListener("click", page3);
 
 // Function to transition to the next page
 function page3() {
-    var click = new Audio("./music/click-button-140881.mp3");
+    var click = new Audio("./../music/click-button-140881.mp3");
     click.play();
     setTimeout(() => {
-        window.location.href = "./stage1/stage1_intro.html";
+        window.location.href = "./../stage1/stage1_intro.html";
     }, 500);
 }
 

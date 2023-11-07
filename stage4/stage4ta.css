@@ -9,7 +9,7 @@
 
 /* Set background image for the body and style flex layout */
 body{
-    background-image: url(./assets/cave02-1024x683.png);
+    background-image: url(./../assets/cave02-1024x683.png);
     background-repeat: no-repeat;
     background-size: 100% 100vh;
     display: flex;

@@ -9,7 +9,7 @@ next.addEventListener("click", nextPage);
 
 // Function to transition to the next page
 function nextPage() {
-    var click = new Audio("./music/click-button-140881.mp3");
+    var click = new Audio("./../music/click-button-140881.mp3");
     click.play();
     setTimeout( () => {
         window.location.href = "./stage1/stage1.html";
@@ -36,5 +36,5 @@ function apppear() {
 }
 
 // Play background music
-var music = new Audio("./music/mystery-and-thriller-music-7070 (mp3cut.net).mp3");
+var music = new Audio("./../music/mystery-and-thriller-music-7070 (mp3cut.net).mp3");
 music.play();

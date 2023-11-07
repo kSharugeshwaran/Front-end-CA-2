@@ -25,7 +25,7 @@ document.getElementById("answerForm").addEventListener("submit", function(event)
     event.preventDefault(); // Prevent the form from submitting
 
     // Play a click sound
-    var click = new Audio("./music/click-button-140881.mp3");
+    var click = new Audio("./../music/click-button-140881.mp3");
     click.play();
 
     // Get the user's answer from the input field and convert to lowercase for case insensitivity
@@ -48,7 +48,7 @@ document.getElementById("answerForm").addEventListener("submit", function(event)
 });
 
 // Create an audio element for background music
-var music = new Audio("./music/2022-12-01_-_Looking_For_Clues_-_www.FesliyanStudios.com.mp3");
+var music = new Audio("./../music/2022-12-01_-_Looking_For_Clues_-_www.FesliyanStudios.com.mp3");
 
 // Play the background music
 music.play();
