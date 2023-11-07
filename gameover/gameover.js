@@ -14,5 +14,5 @@ pAgain.addEventListener("click", redirect);
 
 // Function to redirect to the game's title page
 function redirect() {
-    window.location.href = "/title/index.html";
+    window.location.href = "./../index.html";
 }
