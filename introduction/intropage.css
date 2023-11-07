@@ -9,7 +9,7 @@
 
 /* Styling for the background */
 body {
-    background-image: url(/assets/explanation\ page.jpg);
+    background-image: url(./assets/explanation\ page.jpg);
     background-size: 100% 100vh;
     background-repeat: no-repeat;
 }

@@ -17,7 +17,7 @@
     display: flex; /* Use flex layout */
     flex-direction: column; /* Stack children vertically */
     align-items: center; /* Center-align children */
-    cursor: url(./../assets/cursor-removebg-preview.png); /* Set a custom cursor image */
+    cursor: url(./assets/cursor-removebg-preview.png); /* Set a custom cursor image */
 }
 
 /* Styling for buttons */
