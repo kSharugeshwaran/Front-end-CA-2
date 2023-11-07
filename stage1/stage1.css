@@ -9,7 +9,7 @@
 
 /* Styling for the background */
 body {
-    background-image: url(/assets/prison\ door.jpg);
+    background-image: url(./assets/prison\ door.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100vh;
 }

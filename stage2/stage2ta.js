@@ -6,9 +6,9 @@ tryA.addEventListener("click", tryAgain);
 
 // Function to trigger when "TRY AGAIN" button is clicked
 function tryAgain() {
-    var click = new Audio("./../music/click-button-140881.mp3");
+    var click = new Audio("./music/click-button-140881.mp3");
     click.play();
     setTimeout(() => {
-        window.location.href = "/stage2/stage2.html"; // Redirect to another page after a delay
+        window.location.href = "./stage2/stage2.html"; // Redirect to another page after a delay
     }, 510);
 }

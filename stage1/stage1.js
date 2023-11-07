@@ -23,7 +23,7 @@ function getRandomRiddle() {
     playMusic()
     return riddle[randomIndex];
 }
-var click = new Audio("./../music/click-button-140881.mp3")
+var click = new Audio("./music/click-button-140881.mp3")
 
 riddles.textContent = getRandomRiddle();
 

@@ -11,7 +11,7 @@
 /* Styling for the body element */
 body {
     /* Set the background image and specify its behavior */
-    background-image: url(./../assets/opened\ prison.jpg);
+    background-image: url(./assets/opened\ prison.jpg);
     /* background-color: black; */
     background-repeat: no-repeat;
     background-size: 100% 100vh;

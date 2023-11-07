@@ -35,12 +35,12 @@ function appear() {
 }
 
 // Create an audio element for background music
-var music = new Audio("./../music/mystery-and-thriller-music-7070 (mp3cut.net).mp3");
+var music = new Audio("./music/mystery-and-thriller-music-7070 (mp3cut.net).mp3");
 music.volume = 0.5; // Adjust the volume
 music.play()
 
 // Create an audio element for footsteps sound
-var foot = new Audio("./../music/footsteps_hallway-6417 (mp3cut.net).mp3");
+var foot = new Audio("./music/footsteps_hallway-6417 (mp3cut.net).mp3");
 
 // Play the footsteps sound
 foot.play();

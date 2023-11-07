@@ -12,7 +12,7 @@
 
 /* Styling the background of the body */
 body {
-    background-image: url(/assets/snakeroom.jpg);
+    background-image: url(./assets/snakeroom.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100vh;
 }

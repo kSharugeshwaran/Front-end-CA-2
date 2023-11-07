@@ -10,7 +10,7 @@
 
 /* Styling for the background image */
 body{
-    background-image: url(/assets/library.jpg);
+    background-image: url(./assets/library.jpg);
     background-repeat: no-repeat;
     background-size: 100% 100vh;
 }
