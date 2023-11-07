@@ -7,6 +7,6 @@ function tryAgain(){
      var click = new Audio("./../music/click-button-140881.mp3")
      click.play()
      setTimeout( () =>{
-         window.location href = "/introduction/intropage.html"; // Redirect to the introduction page
+         window.location.href = "./introduction/intropage.html"; // Redirect to the introduction page
      }, 1010)
 }

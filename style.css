@@ -10,7 +10,7 @@
 
 /* Styling for the body element */
 .body {
-    background-image: url(/assets/tiltle\ page.png); /* Set the background image */
+    background-image: url(./../assets/tiltle\ page.png); /* Set the background image */
     background-size: 100% 100vh; /* Cover the entire viewport */
     background-repeat: no-repeat; /* Don't repeat the background */
     color: white; /* Text color */
