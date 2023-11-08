@@ -52,3 +52,20 @@ h1 {
     background-color: red; /* Change background color */
     box-shadow: 2px 6px 5px 0px black; /* Add a shadow effect */
 }
+@media screen and (max-width: 900px){
+    .body{
+        background-size: 100% 100vh;
+    }
+    h1{
+        font-size: 40px;
+    }
+    button{
+        font-size: 16px;
+        top: 200px;
+    }
+    #play{ /* Scale up on hover */
+    background-color: red; /* Change background color */
+    box-shadow: 2px 6px 5px 0px black; /* Add a shadow effect */
+    height: 50px;
+}
+}
