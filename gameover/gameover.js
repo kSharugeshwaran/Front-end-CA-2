@@ -1,5 +1,5 @@
 // Create an audio element and play background music
-var music = new Audio("./music/anthem-of-victory-111206 (mp3cut.net).mp3");
+var music = new Audio("./../music/anthem-of-victory-111206 (mp3cut.net).mp3");
 music.play();
 music.loop = true;
 
@@ -14,5 +14,5 @@ pAgain.addEventListener("click", redirect);
 
 // Function to redirect to the game's title page
 function redirect() {
-    window.location.href = "./index.html";
+    window.location.href = "../index.html";
 }
