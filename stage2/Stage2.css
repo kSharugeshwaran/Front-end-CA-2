@@ -67,3 +67,47 @@ button{
     border-radius: 20px;  
     outline: none;
   }
+  @media screen and (max-width:900px) {
+    body{
+        background-size: 100% 100vh;
+    }
+    #riddles{
+        font-size: 8px;
+        width: 170px;
+        position: absolute;
+        top: 120px;
+        left: 230px;
+        height: 300px;
+        line-height: 10px;
+    }
+    #container{
+        position: absolute;
+        height: 100px;
+        width: 270px;
+        margin-top: -100px;
+        left: 230px;
+        
+    }
+    #answer{
+        margin-left: 320px;
+        /* margin-top: 100px; */
+        position:absolute;
+        top: 270px;
+        width: 100px;
+        height: 30px;
+        text-align: center;
+        font-size: 8px;
+    }
+    button{
+        font-size: 16px;
+        top: 0px;
+        position: absolute;
+        top: 0px;
+        margin-left: 550px;
+        margin-top: 270px;
+        background-color: red; /* Change background color */
+        box-shadow: 2px 6px 5px 0px black; /* Add a shadow effect */
+        height: 50px;
+        width: 100px;
+    }
+}

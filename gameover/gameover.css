@@ -89,3 +89,44 @@ a{
     text-decoration: none;
     color: rgb(255, 208, 0);
 }
+@media screen and (max-width: 900px) {
+    p{
+        font-size: 30px;
+        margin-top: -100px;
+        margin-left: -350px;
+        width: 700px;
+    }
+    #pagain,#exit{
+        font-size: 12px;
+        top: 0px;
+        position: absolute;
+        top: 0px;
+        background-color: red; /* Change background color */
+        box-shadow : 2px 6px 5px 0px black; /* Add a shadow effect */
+        height: 30px; 
+        width: 75px;
+    }
+    #pagain{
+        margin-left: -120px;
+        margin-top: -100px;
+    }
+    #exit{
+        margin-left: 100px;
+        margin-top: -100px;
+    }
+    #container{
+        margin-top: -100px;
+        margin-left: -300px;
+        width: 700px;
+        height: 70px;
+    }
+    #king{
+        font-size: 12px;
+        margin-top: 230px;
+        
+    }
+    .buttons{
+        width: 0px;
+    }
+    
+}

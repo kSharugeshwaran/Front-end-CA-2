@@ -57,3 +57,44 @@ p{
     border-radius: 45px;
 
 }
+@media screen and (max-width:900px) {
+    body{
+        background-size: 100% 100vh;
+    }
+    p{
+        font-size: 8px;
+        width: 270px;
+        position: absolute;
+        top: -30px;
+        left: 195px;
+        height: 100px;
+        line-height: 10px;
+    }
+    #message{
+        position: absolute;
+        height: 80px;
+        width: 350px;
+        margin-top: -200px;
+        left: 180px;
+        
+    }
+    #franklin{
+        position: absolute;
+        height: 150px;
+        margin-top: 150px;
+        margin-left: 100px;
+    }
+    button{
+        font-size: 16px;
+        position: absolute;
+            /* top: 0px;
+            top: 0px;
+            margin-left: 550px; */
+            margin-top: -70px;
+            left: -550px;
+        background-color: red; /* Change background color */
+        box-shadow: 2px 6px 5px 0px black; /* Add a shadow effect */
+        height: 50px;
+        width: 100px;
+    }
+}

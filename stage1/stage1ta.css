@@ -67,4 +67,41 @@ button {
     position: absolute;
     margin-left: 100px;
     margin-top: 400px;
+}@media screen and (max-width:900px) {
+    body{
+        background-size: 100% 100vh;
+    }
+    #franklin{
+        position: absolute;
+        height: 100px;
+        margin-top: 200px;
+        margin-left: 50px;
+    }
+    p{
+        font-size: 8px;
+        top: -10px;
+        width: 270px;
+        left: 140px;
+    }
+    #message{
+        position: absolute;
+        height: 100px;
+        width: 330px;
+        top: 120px;
+        left: 120px;
+        
+    }
+    button{
+        font-size: 16px;
+        top: 0px;
+        position: absolute;
+        top: 0px;
+        margin-left: 550px;
+        margin-top: 270px;
+        background-color: red; /* Change background color */
+        box-shadow: 2px 6px 5px 0px black; /* Add a shadow effect */
+        height: 50px;
+        width: 100px;
+    }
 }
+
