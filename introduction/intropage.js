@@ -34,3 +34,9 @@ function apppear() {
         frank.style.visibility = "visible";
     }, 500);
 }
+
+var user = document.getElementById("name")
+
+var prof = localStorage.getItem("player")
+
+user.textContent = prof

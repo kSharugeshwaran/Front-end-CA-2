@@ -12,7 +12,7 @@ function pageTwo() {
 
     // Delay the navigation to the next page by 1010 milliseconds (1.01 seconds)
     setTimeout(() => {
-        window.location.href = "./introduction/intropage.html"; // Navigate to the specified URL
+        window.location.href = "../introduction/intropage.html"; // Navigate to the specified URL
     }, 510);
 }
 
